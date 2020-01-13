@@ -2,8 +2,8 @@
 
 ### Time spent
  * 4h on the unity UI handling
- * 4h on the Analytics integration and scripts
- * 1h on the ads scripts
+ * 3h30 on the Analytics integration and scripts
+ * 1h30 on the ads scripts
  * 6h on the ads integration to try to make them work
  * times are including the seeking of informations, not the tools downloading
 
@@ -15,7 +15,7 @@
  * Getting used to Unity, creating the scenes and the UI : The specific build settings, all the tools related to the game environment and the UI (Canvas, Camera).
  * Getting used to the C# syntax.
  * Building the project on my mobile phone (samsung) which didn't want to be recognized at first, for some reasons.
- * Making the Ads work, I actually couldn't manage to make it work. Didn't get any explicit error or warning about it though. I would be glad if you could enlight me about it... I tried to install it twice through the Asset Store, and twice through the package manager, created a new project, reinstalled unity... Some of the thread I went through : [curl error](https://forum.unity.com/threads/whats-curl-error-56.794703/), [ads crash](https://forum.unity.com/threads/ads-crash-on-android.802656/), [other ads crash](https://forum.unity.com/threads/game-crash-on-android-after-integrating-unity-ads.611131/)
+ * Making the Ads work, I actually couldn't manage to make it work. Didn't get any explicit error or warning about it though. I would be glad if you could enlight me about it... I tried to install it twice through the Asset Store, and twice through the package manager, created a new project, reinstalled unity... Some of the thread I went through : [curl error](https://forum.unity.com/threads/whats-curl-error-56.794703/), [ads crash](https://forum.unity.com/threads/ads-crash-on-android.802656/), [other ads crash](https://forum.unity.com/threads/game-crash-on-android-after-integrating-unity-ads.611131/). I read somewhere that downgrading unity to a previous version could help out, but considering Jonathan messages, my disastrous internet connection and the time already spent trying to fix it out in vain, I didn't try this option.
 
 ### Next steps
  * Extract the tracking logic into the cloud, in a custom tracking API calling on all the desired analytic tools API. So instead of having the same code duplicated over all the games to track, we would simply use the same syntax everywhere, making the code and the games lighter, their data consumption lighter as well, and the maintenance would be done just once, on the server side API.
